@@ -38,6 +38,7 @@ git:
 # Dotfiles & Stow
 path:
     {{ mk }} ~/.config/Code/User
+    {{ mk }} ~/.config/ghostty
     {{ mk }} ~/.local/bin
 
 stow: path

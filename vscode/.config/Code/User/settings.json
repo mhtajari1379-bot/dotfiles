@@ -8,5 +8,6 @@
     "vim.handleKeys": {
         "<C-f>": false
     },
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "git.confirmSync": false
 }
