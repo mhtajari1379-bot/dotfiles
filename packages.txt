@@ -5,12 +5,15 @@ eza
 fastfetch
 fd
 firefox-developer-edition
+fish
+fisher
 ghostty
 git
 inetutils
 just
 kdeconnect
 lazygit
+libreoffice-fresh
 lm_sensors
 man-db
 mpv

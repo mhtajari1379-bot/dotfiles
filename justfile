@@ -1,13 +1,10 @@
 # Variables
+git_email := "mhtajari1379@gmail.com"
+git_name := "mhtajari"
 pkgs_file := "./packages.txt"
 aur_file := "./aur-packages.txt"
 aur_helper := "./scripts/.local/bin/aur-helper"
-git_cfg := "git config --global"
-git_email := "mhtajari1379@gmail.com"
-git_name := "mhtajari"
-mk := "mkdir -p"
-svc_enable := "sudo systemctl enable"
-svc_start := "sudo systemctl start"
+fish_shell := "/usr/bin/fish"
 
 set shell := ["bash", "-cu"]
 
@@ -23,32 +20,32 @@ aur:
 
 # Git Configuration
 git:
-    {{ git_cfg }} user.email {{ git_email }}
-    {{ git_cfg }} user.name {{ git_name }}
-    {{ git_cfg }} credential.helper store
-    {{ git_cfg }} push.autoSetupRemote true
-    {{ git_cfg }} init.defaultBranch main
-    {{ git_cfg }} core.pager delta
-    {{ git_cfg }} interactive.diffFilter "delta --color-only"
-    {{ git_cfg }} delta.navigate true
-    {{ git_cfg }} merge.conflictStyle zdiff3
-    {{ git_cfg }} delta.line-numbers true
-    {{ git_cfg }} delta.side-by-side true
+    git config --global user.email {{ git_email }}
+    git config --global user.name {{ git_name }}
+    git config --global credential.helper store
+    git config --global push.autoSetupRemote true
+    git config --global init.defaultBranch main
+    git config --global core.pager delta
+    git config --global interactive.diffFilter "delta --color-only"
+    git config --global delta.navigate true
+    git config --global merge.conflictStyle zdiff3
+    git config --global delta.line-numbers true
+    git config --global delta.side-by-side true
 
 # Dotfiles & Stow
 path:
-    {{ mk }} ~/.config/Code/User
-    {{ mk }} ~/.config/ghostty
-    {{ mk }} ~/.local/bin
+    mkdir -p ~/.config/Code/User
+    mkdir -p ~/.config/fish
+    mkdir -p ~/.config/ghostty
+    mkdir -p ~/.local/bin
 
 stow: path
     stow */
 
-# Services & Shell
-services:
-    {{ svc_enable }} bluetooth.service
-    {{ svc_start }} bluetooth.service
+# default Shell
+shell:
+    chsh -s {{ fish_shell }}
 
 # Meta-Task
-setup: build aur git stow services
+setup: build aur git stow shell
     @printf "\n✅ Setup complete!\n"
