@@ -1,0 +1,5 @@
+hiddify-next-bin
+lazydocker
+paru
+vazirmatn-fonts
+visual-studio-code-bin
