@@ -9,5 +9,6 @@
         "<C-f>": false
     },
     "workbench.iconTheme": "material-icon-theme",
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false
 }
