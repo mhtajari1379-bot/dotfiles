@@ -4,7 +4,6 @@ git_name := "mhtajari"
 pkgs_file := "./packages.txt"
 aur_file := "./aur-packages.txt"
 aur_helper := "./scripts/.local/bin/aur-helper"
-fish_shell := "/usr/bin/fish"
 
 set shell := ["bash", "-cu"]
 
@@ -35,17 +34,12 @@ git:
 # Dotfiles & Stow
 path:
     mkdir -p ~/.config/Code/User
-    mkdir -p ~/.config/fish
     mkdir -p ~/.config/ghostty
     mkdir -p ~/.local/bin
 
 stow: path
     stow */
 
-# default Shell
-shell:
-    chsh -s {{ fish_shell }}
-
 # Meta-Task
-setup: build aur git stow shell
+setup: build aur git stow
     @printf "\n✅ Setup complete!\n"
