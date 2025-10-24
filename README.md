@@ -2,6 +2,16 @@
 
 Welcome to my dotfiles repository! This repository contains configuration files and scripts to set up and customize my development environment.
 
+- [Dotfiles](#dotfiles)
+  - [Install Packages](#install-packages)
+  - [Install AUR Packages](#install-aur-packages)
+  - [Git Configuration](#git-configuration)
+  - [Zsh Setup](#zsh-setup)
+  - [Stow Usage](#stow-usage)
+  - [Visual Studio Code Extensions](#visual-studio-code-extensions)
+  - [Contributing](#contributing)
+  - [License](#license)
+
 ## Install Packages
 
 Install the following packages using your package manager:
@@ -11,6 +21,7 @@ curl
 eza
 fastfetch
 fd
+firefox-developer-edition
 ghostty
 git
 lazygit
@@ -25,7 +36,6 @@ thunderbird
 tldr
 tree
 wget
-zed
 zoxide
 
 ## Install AUR Packages
@@ -36,7 +46,7 @@ hiddify-next-bin
 lazydocker
 paru
 vazirmatn-fonts
-zen-browser-bin
+visual-studio-code-bin
 
 Then, run the following command to install all packages listed in the file:
 
@@ -100,6 +110,23 @@ Finally, run Stow to symlink your configuration files:
 ```bash
 stow */
 ```
+
+## Visual Studio Code Extensions
+
+I use the following VS Code extensions:
+
+catppuccin.catppuccin-vsc
+eamodio.gitlens
+pkief.material-icon-theme
+yzhang.markdown-all-in-one
+
+To install all extensions at once, put the list into a file and run:
+
+```bash
+xargs -n 1 code --install-extension < /path/to/file
+```
+
+Replace `/path/to/file` with the path to your extensions list file.
 
 ## Contributing
 

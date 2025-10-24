@@ -1,0 +1,9 @@
+{
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "'FiraCode Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false
+}
