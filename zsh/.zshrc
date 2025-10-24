@@ -17,7 +17,7 @@ c() {
   l
 }
 alias u='paru'
-alias v='code -r'
+alias v='zeditor'
 alias q='exit'
 alias lzg='lazygit'
 alias lzd='lazydocker'
