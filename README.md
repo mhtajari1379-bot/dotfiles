@@ -2,51 +2,42 @@
 
 Welcome to my dotfiles repository! This repository contains configuration files and scripts to set up and customize my development environment.
 
-- [Dotfiles](#dotfiles)
-  - [Install Packages](#install-packages)
-  - [Install AUR Packages](#install-aur-packages)
-  - [Git Configuration](#git-configuration)
-  - [Zsh Setup](#zsh-setup)
-  - [Stow Usage](#stow-usage)
-  - [Visual Studio Code Extensions](#visual-studio-code-extensions)
-  - [Contributing](#contributing)
-  - [License](#license)
-
 ## Install Packages
 
 Install the following packages using your package manager:
 
-bat
-curl
-eza
-fastfetch
-fd
-firefox-developer-edition
-ghostty
-git
-lazygit
-libreoffice-fresh
-man-db
-ripgrep
-skim
-starship
-stow
-telegram-desktop
-thunderbird
-tldr
-tree
-wget
-zoxide
+- bat
+- curl
+- eza
+- fastfetch
+- fd
+- ghostty
+- git
+- lazygit
+- libreoffice-fresh
+- man-db
+- meld
+- ripgrep
+- skim
+- starship
+- stow
+- telegram-desktop
+- thunderbird
+- tldr
+- tree
+- wget
+- zed
+- zoxide
 
 ## Install AUR Packages
 
 These AUR packages can be installed using an AUR helper. First, create a text file containing the package names, one per line, like this:
 
-hiddify-next-bin
-lazydocker
-paru
-vazirmatn-fonts
-visual-studio-code-bin
+- hiddify-next-bin
+- lazydocker
+- paru
+- vazirmatn-fonts
+- zen-browser-bin
 
 Then, run the following command to install all packages listed in the file:
 
@@ -100,8 +91,8 @@ rm ~/.zshrc
 Create necessary directories before running Stow to avoid symlink issues:
 
 ```bash
-mkdir -p ~/.config/Code/User
 mkdir -p ~/.config/ghostty
+mkdir -p ~/.config/zed
 mkdir -p ~/.local/bin
 ```
 
@@ -111,22 +102,13 @@ Finally, run Stow to symlink your configuration files:
 stow */
 ```
 
-## Visual Studio Code Extensions
+## Zed Text Editor Extensions
 
-I use the following VS Code extensions:
+I use the following Zed extensions:
 
-catppuccin.catppuccin-vsc
-eamodio.gitlens
-pkief.material-icon-theme
-yzhang.markdown-all-in-one
-
-To install all extensions at once, put the list into a file and run:
-
-```bash
-xargs -n 1 code --install-extension < /path/to/file
-```
-
-Replace `/path/to/file` with the path to your extensions list file.
+- HTML
+- Catppuccin
+- LiveServer
 
 ## Contributing
 
