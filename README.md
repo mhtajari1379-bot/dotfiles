@@ -13,10 +13,12 @@ Install the following packages using your package manager:
 - fd
 - ghostty
 - git
+- git-delta
+- github-cli
 - lazygit
 - libreoffice-fresh
 - man-db
-- meld
+- markdown-toc (not in repos)
 - ripgrep
 - skim
 - starship
