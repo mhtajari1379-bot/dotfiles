@@ -13,7 +13,6 @@ Install the following packages using your package manager:
 - fd
 - ghostty
 - git
-- git-delta
 - github-cli
 - lazygit
 - libreoffice-fresh
@@ -56,15 +55,6 @@ Set up your Git configuration by running these commands. Replace `<example@gmail
 ```bash
 git config --global user.email <example@gmail.com>
 git config --global user.name <example>
-git config --global credential.helper store
-git config --global push.autoSetupRemote true
-git config --global init.defaultBranch main
-git config --global core.pager delta
-git config --global interactive.diffFilter "delta --color-only"
-git config --global delta.navigate true
-git config --global merge.conflictStyle zdiff3
-git config --global delta.line-numbers true
-git config --global delta.side-by-side true
 gh auth login
 ```
 
