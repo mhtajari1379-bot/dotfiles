@@ -18,6 +18,7 @@ Install the following packages using your package manager:
 - libreoffice-fresh
 - man-db
 - markdown-toc (not in repos)
+- npm
 - ripgrep
 - skim
 - starship
@@ -99,9 +100,9 @@ stow */
 
 I use the following Zed extensions:
 
-- HTML
 - Catppuccin
 - LiveServer
+- Material Icon Theme
 
 ## Contributing
 

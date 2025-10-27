@@ -14,5 +14,6 @@
     "mode": "system",
     "light": "Catppuccin Latte",
     "dark": "Catppuccin Mocha"
-  }
+  },
+  "icon_theme": "Material Icon Theme"
 }
