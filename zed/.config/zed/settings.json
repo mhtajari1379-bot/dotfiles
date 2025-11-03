@@ -15,5 +15,15 @@
     "light": "Catppuccin Latte",
     "dark": "Catppuccin Mocha"
   },
-  "icon_theme": "Material Icon Theme"
+  "icon_theme": "Material Icon Theme",
+  "auto_install_extensions": {
+    "catppuccin": true,
+    "docker-compose": true,
+    "dockerfile": true,
+    "git-firefly": true,
+    "html": true,
+    "live-server": true,
+    "material-icon-theme": true,
+    "nix": true
+  }
 }

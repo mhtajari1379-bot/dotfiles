@@ -96,14 +96,6 @@ Finally, run Stow to symlink your configuration files:
 stow */
 ```
 
-## Zed Text Editor Extensions
-
-I use the following Zed extensions:
-
-- Catppuccin
-- LiveServer
-- Material Icon Theme
-
 ## Contributing
 
 Pull requests and ideas are welcome! Feel free to open an issue or fork this project to contribute.
