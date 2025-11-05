@@ -28,4 +28,3 @@ cheat() {
 eval "$(zoxide init zsh)"
 
 eval "$(starship init zsh)"
-if [ -e /home/mhtajari/.nix-profile/etc/profile.d/nix.sh ]; then . /home/mhtajari/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
