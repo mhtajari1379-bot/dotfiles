@@ -1,4 +1,4 @@
 font-family = "Iosevka"
 font-size = 12
-theme = catppuccin-mocha.conf
+theme = Builtin Solarized Dark
 window-decoration = "client"
