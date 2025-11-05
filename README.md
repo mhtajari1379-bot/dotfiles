@@ -7,26 +7,37 @@ Welcome to my dotfiles repository! This repository contains configuration files 
 Install the following packages using your package manager:
 
 - bat
+- eza
 - fastfetch
 - fd
+- ghostty
 - git
 - github-cli
+- lazygit
+- libreoffice-fresh
+- man-db
+- markdown-toc (not in repos)
 - npm
 - ripgrep
 - skim
+- starship
 - stow
 - telegram-desktop
 - tldr
 - tree
+- wget
 - zed
+- zoxide
 
 ## Install AUR Packages
 
 Install the following packages using your AUR helper:
 
 - hiddify-next-bin
+- lazydocker
 - paru
 - vazirmatn-fonts
+- zen-browser-bin
 
 ## Git Configuration
 
