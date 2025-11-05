@@ -13,6 +13,9 @@
   "minimap": {
     "show": "always"
   },
+  "tabs": {
+    "file_icons": true
+  },
   "telemetry": {
     "metrics": false,
     "diagnostics": false
@@ -36,8 +39,5 @@
     "live-server": true,
     "material-icon-theme": true,
     "solarized": true
-  },
-  "tabs": {
-    "file_icons": true
   }
 }
