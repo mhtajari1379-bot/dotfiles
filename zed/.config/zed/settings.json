@@ -1,10 +1,17 @@
 {
   "buffer_font_family": "Iosevka",
+  "buffer_font_weight": 300.0,
   "buffer_font_size": 14,
   "ui_font_family": "Iosevka",
+  "ui_font_weight": 300.0,
   "ui_font_size": 14,
+  "cursor_blink": false,
+  "current_line_highlight": "none",
+  "scrollbar": {
+    "show": "never"
+  },
   "minimap": {
-    "show": "auto"
+    "show": "always"
   },
   "telemetry": {
     "metrics": false,
@@ -13,19 +20,22 @@
   "vim_mode": true,
   "theme": {
     "mode": "system",
-    "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha"
+    "light": "Solarized Light",
+    "dark": "Solarized Dark"
   },
-  "icon_theme": "Material Icon Theme",
+  "icon_theme": {
+    "mode": "system",
+    "light": "Material Icon Theme",
+    "dark": "Material Icon Theme"
+  },
   "auto_install_extensions": {
-    "catppuccin": true,
     "docker-compose": true,
     "dockerfile": true,
     "git-firefly": true,
     "html": true,
     "live-server": true,
     "material-icon-theme": true,
-    "nix": true
+    "solarized": true
   },
   "tabs": {
     "file_icons": true
