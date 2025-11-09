@@ -11,8 +11,6 @@ Install the following packages using your package manager:
 - eza
 - fastfetch
 - fd
-- fish
-- fisher
 - git
 - github-cli
 - htop
@@ -50,20 +48,11 @@ git config --global user.name <example>
 gh auth login
 ```
 
-## Fish Setup
-
-Set Fish as your default shell:
-
-```bash
-chsh -s /usr/bin/fish
-```
-
 ## Stow Usage
 
 Create necessary directories before running Stow to avoid symlink issues:
 
 ```bash
-mkdir -p ~/.config/fish
 mkdir -p ~/.config/zed
 mkdir -p ~/.local/bin
 ```
