@@ -62,24 +62,6 @@ Set Fish as your default shell:
 chsh -s /usr/bin/fish
 ```
 
-## Stow Usage
-
-Create necessary directories before running Stow to avoid symlink issues:
-
-```bash
-mkdir -p ~/.config/fish
-mkdir -p ~/.config/ghostty
-# mkdir -p ~/.config/nvim
-mkdir -p ~/.config/zed
-mkdir -p ~/.local/bin
-```
-
-Finally, run Stow to symlink your configuration files:
-
-```bash
-stow */
-```
-
 ## LazyVim Setup
 
 To enhance your Neovim experience, you can install [LazyVim](https://www.lazyvim.org/installation), a fast and extensible Neovim config:
@@ -90,6 +72,23 @@ nvim
 ```
 
 This will bootstrap LazyVim with sensible defaults and plugin management.
+
+## Stow Usage
+
+Create necessary directories before running Stow to avoid symlink issues:
+
+```bash
+mkdir -p ~/.config/fish
+mkdir -p ~/.config/ghostty
+mkdir -p ~/.config/zed
+mkdir -p ~/.local/bin
+```
+
+Finally, run Stow to symlink your configuration files:
+
+```bash
+stow */
+```
 
 ## Contributing
 
