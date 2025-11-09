@@ -11,9 +11,15 @@ Install the following packages using your package manager:
 - eza
 - fastfetch
 - fd
+- fish
+- fisher
+- ghostty
 - git
 - github-cli
 - htop
+- lazygit
+- meld
+- neovim
 - npm
 - ripgrep
 - rubber
@@ -48,11 +54,22 @@ git config --global user.name <example>
 gh auth login
 ```
 
+## Fish Setup
+
+Set Fish as your default shell:
+
+```bash
+chsh -s /usr/bin/fish
+```
+
 ## Stow Usage
 
 Create necessary directories before running Stow to avoid symlink issues:
 
 ```bash
+mkdir -p ~/.config/fish
+mkdir -p ~/.config/ghostty
+# mkdir -p ~/.config/nvim
 mkdir -p ~/.config/zed
 mkdir -p ~/.local/bin
 ```
@@ -62,6 +79,17 @@ Finally, run Stow to symlink your configuration files:
 ```bash
 stow */
 ```
+
+## LazyVim Setup
+
+To enhance your Neovim experience, you can install [LazyVim](https://www.lazyvim.org/installation), a fast and extensible Neovim config:
+
+```bash
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+nvim
+```
+
+This will bootstrap LazyVim with sensible defaults and plugin management.
 
 ## Contributing
 
