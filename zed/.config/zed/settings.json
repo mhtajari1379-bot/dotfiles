@@ -38,6 +38,7 @@
     "git-firefly": true,
     "html": true,
     "live-server": true,
+    "make": true,
     "material-icon-theme": true,
     "tokyo-night": true
   }
