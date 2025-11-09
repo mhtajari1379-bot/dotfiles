@@ -16,7 +16,6 @@ Install the following packages using your package manager:
 - git
 - github-cli
 - htop
-- libreoffice-fresh
 - npm
 - ripgrep
 - rubber
@@ -65,7 +64,6 @@ Create necessary directories before running Stow to avoid symlink issues:
 
 ```bash
 mkdir -p ~/.config/fish
-mkdir -p ~/.config/ghostty
 mkdir -p ~/.config/zed
 mkdir -p ~/.local/bin
 ```
