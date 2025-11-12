@@ -2,6 +2,8 @@
 
 Welcome to my dotfiles repository! This repository contains configuration files and scripts to set up and customize my development environment.
 
+[[_TOC_]]
+
 ## Install Packages
 
 Install the following packages using your package manager:
@@ -30,9 +32,11 @@ Install the following packages using your package manager:
 - texlive
 - texlive-langarabic
 - tldr
+- tmux
 - tree
 - ttf-nerd-fonts-symbols-mono
 - wireguard-tools
+- yazi
 - zed
 - zoxide
 
@@ -73,6 +77,14 @@ nvim
 
 This will bootstrap LazyVim with sensible defaults and plugin management.
 
+## TPM
+
+Install the Tmux Plugin Manager:
+
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
 ## Stow Usage
 
 Create necessary directories before running Stow to avoid symlink issues:
@@ -80,6 +92,7 @@ Create necessary directories before running Stow to avoid symlink issues:
 ```bash
 mkdir -p ~/.config/fish
 mkdir -p ~/.config/ghostty
+mkdir -p ~/.config/tmux
 mkdir -p ~/.config/zed
 mkdir -p ~/.local/bin
 ```

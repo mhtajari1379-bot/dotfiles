@@ -1,5 +1,5 @@
 font-family = "Iosevka"
 font-size = 12
-theme = TokyoNight Moon
+theme = Catppuccin Mocha
 window-decoration = "client"
 mouse-hide-while-typing = true
