@@ -2,7 +2,18 @@
 
 Welcome to my dotfiles repository! This repository contains configuration files and scripts to set up and customize my development environment.
 
-[[_TOC_]]
+<!-- toc -->
+
+- [Install Packages](#install-packages)
+- [Git Configuration](#git-configuration)
+- [Fish Setup](#fish-setup)
+- [LazyVim Setup](#lazyvim-setup)
+- [TPM](#tpm)
+- [Stow Usage](#stow-usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+<!-- tocstop -->
 
 ## Install Packages
 
