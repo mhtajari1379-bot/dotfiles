@@ -103,6 +103,7 @@ Create necessary directories before running Stow to avoid symlink issues:
 ```bash
 mkdir -p ~/.config/fish
 mkdir -p ~/.config/ghostty
+mkdir -p ~/.config/nvim
 mkdir -p ~/.config/tmux
 mkdir -p ~/.config/zed
 mkdir -p ~/.local/bin
