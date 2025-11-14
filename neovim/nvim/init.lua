@@ -17,7 +17,7 @@ opt.splitbelow = true
 opt.list = true
 opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 opt.inccommand = 'split'
-opt.cursorline = true
+-- opt.cursorline = true
 opt.scrolloff = 10
 opt.confirm = true
 opt.tabstop = 2

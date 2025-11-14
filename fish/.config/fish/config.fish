@@ -39,7 +39,7 @@ if status is-interactive
     end
 
     function u
-        sudo pacman -Syu $argv
+        paru
     end
 
     function v
@@ -75,7 +75,7 @@ if status is-interactive
     end
 
     function t
-        tldr $argv[1]
+        tmux $argv
     end
 
     function cht

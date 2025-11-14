@@ -7,12 +7,12 @@
   "ui_font_size": 14,
   "cursor_blink": false,
   "current_line_highlight": "none",
-  "relative_line_numbers": true,
+  "relative_line_numbers": "enabled",
   "scrollbar": {
     "show": "never"
   },
   "minimap": {
-    "show": "always"
+    "show": "never"
   },
   "tabs": {
     "file_icons": true
