@@ -74,7 +74,7 @@ return {
       desc = 'Lazygit',
     },
     {
-      '<C-_>',
+      '<C-`>',
       function()
         Snacks.terminal.toggle()
       end,
