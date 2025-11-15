@@ -32,7 +32,6 @@ Install the following packages using your package manager:
 - github-cli
 - htop
 - lazygit
-- meld
 - neovim
 - npm
 - ripgrep
@@ -48,7 +47,6 @@ Install the following packages using your package manager:
 - tree
 - ttf-nerd-fonts-symbols-mono
 - wireguard-tools
-- yarn
 - yazi
 - zed
 - zoxide

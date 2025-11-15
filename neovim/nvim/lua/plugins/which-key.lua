@@ -7,6 +7,7 @@ return {
     spec = {
       { '<leader>b', group = 'Buffer' },
       { '<leader>f', group = 'Files' },
+      { '<leader>o', group = 'Neorg' },
       { '<leader>w', group = 'Window' },
       { '<leader>g', group = 'Git' },
       { '<leader>s', group = 'Session' },
