@@ -60,7 +60,7 @@ return {
       desc = 'Notification History',
     },
     {
-      '<leader>e',
+      '<leader>fe',
       function()
         Snacks.explorer()
       end,
@@ -74,7 +74,7 @@ return {
       desc = 'Lazygit',
     },
     {
-      '<C-`>',
+      '<C-_>',
       function()
         Snacks.terminal.toggle()
       end,

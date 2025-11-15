@@ -6,6 +6,7 @@ return {
     defaults = {},
     spec = {
       { '<leader>b', group = 'Buffer' },
+      { '<leader>f', group = 'Files' },
       { '<leader>w', group = 'Window' },
       { '<leader>g', group = 'Git' },
       { '<leader>s', group = 'Session' },

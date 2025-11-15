@@ -20,6 +20,7 @@ Welcome to my dotfiles repository! This repository contains configuration files 
 Install the following packages using your package manager:
 
 - bat
+- bottom
 - ctop
 - eza
 - fastfetch
@@ -47,6 +48,7 @@ Install the following packages using your package manager:
 - tree
 - ttf-nerd-fonts-symbols-mono
 - wireguard-tools
+- yarn
 - yazi
 - zed
 - zoxide
