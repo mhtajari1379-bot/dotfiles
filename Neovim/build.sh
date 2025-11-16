@@ -12,16 +12,10 @@ fi
 
 paru -S --needed --noconfirm neovim
 
-if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
-  SCRIPT_PATH="$(realpath "${BASH_SOURCE[0]}")"
-else
-  SCRIPT_PATH="$(realpath "${BASH_SOURCE[1]}")"
-fi
-
-STOW_ROOT="$(dirname "$SCRIPT_PATH")"
+SCRIPT_DIR="$(dirname "$(realpath "${BASH_SOURCE[0]}")")"
 PACKAGE_NAME="nvim"
 CONFIG_DIR="$HOME/.config/$PACKAGE_NAME"
 
 mkdir -p "$CONFIG_DIR"
 
-stow -d "$STOW_ROOT" -t "$CONFIG_DIR" "$PACKAGE_NAME"
+stow -d "$SCRIPT_DIR" -t "$CONFIG_DIR" "$PACKAGE_NAME"

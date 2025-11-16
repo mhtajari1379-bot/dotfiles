@@ -7,7 +7,7 @@
   "ui_font_size": 14,
   "cursor_blink": false,
   "current_line_highlight": "none",
-  "relative_line_numbers": "enabled",
+  // "relative_line_numbers": "enabled",
   "scrollbar": {
     "show": "never"
   },
@@ -29,11 +29,12 @@
   },
   "icon_theme": {
     "mode": "system",
-    "light": "Material Icon Theme",
-    "dark": "Material Icon Theme"
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha"
   },
   "auto_install_extensions": {
     "catppuccin": true,
+    "catppuccin-icons": true,
     "docker-compose": true,
     "dockerfile": true,
     "fish": true,
@@ -42,7 +43,6 @@
     "live-server": true,
     "lua": true,
     "make": true,
-    "material-icon-theme": true,
     "tmux": true
   }
 }

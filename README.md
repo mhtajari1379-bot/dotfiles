@@ -47,6 +47,7 @@ Install the following packages using your package manager:
 - tmux
 - tree
 - ttf-nerd-fonts-symbols
+- ttf-nerd-fonts-symbols-mono
 - wireguard-tools
 - yazi
 - zed
