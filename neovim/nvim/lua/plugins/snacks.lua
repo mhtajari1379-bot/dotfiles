@@ -74,6 +74,14 @@ return {
       desc = 'Lazygit',
     },
     {
+      '<C-`>',
+      function()
+        Snacks.terminal.toggle()
+      end,
+      desc = 'Toggle Terminal',
+      mode = { 'n', 'i', 't' },
+    },
+    {
       '<C-_>',
       function()
         Snacks.terminal.toggle()
