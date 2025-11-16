@@ -20,7 +20,8 @@ fi
 
 STOW_ROOT="$(dirname "$SCRIPT_PATH")"
 PACKAGE_NAME="nvim"
+CONFIG_DIR="$HOME/.config/$PACKAGE_NAME"
 
-mkdir -p ~/.config/nvim
+mkdir -p "$CONFIG_DIR"
 
-stow -d "$STOW_ROOT" -t ~/.config/nvim "$PACKAGE_NAME"
+stow -d "$STOW_ROOT" -t "$CONFIG_DIR" "$PACKAGE_NAME"

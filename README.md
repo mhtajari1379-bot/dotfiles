@@ -19,6 +19,7 @@ Welcome to my dotfiles repository! This repository contains configuration files 
 
 Install the following packages using your package manager:
 
+- atool
 - bat
 - bottom
 - ctop
@@ -45,7 +46,7 @@ Install the following packages using your package manager:
 - tldr
 - tmux
 - tree
-- ttf-nerd-fonts-symbols-mono
+- ttf-nerd-fonts-symbols
 - wireguard-tools
 - yazi
 - zed
