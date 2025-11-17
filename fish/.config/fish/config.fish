@@ -42,6 +42,10 @@ if status is-interactive
         paru
     end
 
+    function cat
+        bat $argv
+    end
+
     function v
         nvim $argv
     end
