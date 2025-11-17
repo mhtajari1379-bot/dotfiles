@@ -8,6 +8,9 @@ return {
   },
   opts = function()
     return {
+      options = {
+        separator_style = 'slant',
+      },
       highlights = require('catppuccin.special.bufferline').get_theme(),
     }
   end,
