@@ -19,6 +19,10 @@ return {
           default_workspace = 'notes',
         },
       },
+      ['core.integrations.treesitter'] = {
+        configure_parsers = true,
+        install_parsers = true,
+      },
     },
   },
   keys = {
