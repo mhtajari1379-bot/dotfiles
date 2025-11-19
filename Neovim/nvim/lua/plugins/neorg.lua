@@ -15,6 +15,7 @@ return {
         config = {
           workspaces = {
             notes = '~/Neorg/notes',
+            works = '~/Neorg/works',
           },
           default_workspace = 'notes',
         },
@@ -30,6 +31,11 @@ return {
       '<leader>on',
       '<cmd>Neorg workspace notes<CR>',
       desc = 'Neorg Open Notes',
+    },
+    {
+      '<leader>ow',
+      '<cmd>Neorg workspace works<CR>',
+      desc = 'Neorg Open Works',
     },
   },
 }
