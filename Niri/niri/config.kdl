@@ -18,10 +18,13 @@ gestures {
 input {
     keyboard {
         xkb {
+            layout "us,ir"
+            options "grp:alt_shift_toggle,shift:both_capslock,caps:escape"
         }
         numlock
     }
     touchpad {
+        tap
     }
     mouse {
     }
