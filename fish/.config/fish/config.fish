@@ -86,6 +86,18 @@ if status is-interactive
         tmux $argv
     end
 
+    function open
+        if test (count $argv) -eq 0
+            echo "Usage: open <file-or-url>"
+            return 1
+        end
+
+        for arg in $argv
+            xdg-open $arg >/dev/null 2>&1 &
+            disown
+        end
+    end
+
     function cht
         curl cheat.sh/$argv[1] | bat
     end

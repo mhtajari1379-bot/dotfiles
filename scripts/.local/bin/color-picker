@@ -1,0 +1,20 @@
+#!/bin/bash
+
+color=$(hyprpicker -a)
+
+r=$(echo "$color" | cut -c2-3)
+g=$(echo "$color" | cut -c4-5)
+b=$(echo "$color" | cut -c6-7)
+
+r_dec=$((0x$r))
+g_dec=$((0x$g))
+b_dec=$((0x$b))
+
+rgb="RGB: $r_dec, $g_dec, $b_dec"
+
+temp_icon=$(mktemp /tmp/color_icon.XXXXXX.png)
+convert -size 48x48 xc:"$color" "$temp_icon"
+
+notify-send -a "Color Picker" --icon="$temp_icon" "Selected Color" "Hex: $color\n$rgb"
+
+rm "$temp_icon"

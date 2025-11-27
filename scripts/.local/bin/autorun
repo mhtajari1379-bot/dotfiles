@@ -1,0 +1,10 @@
+#!/bin/sh
+
+run() {
+  if ! pgrep -f "$1"; then
+    "$@" &
+  fi
+}
+
+# run hypridle
+run wl-paste --watch cliphist store
