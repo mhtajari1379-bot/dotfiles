@@ -46,6 +46,10 @@ if status is-interactive
         bat $argv
     end
 
+    function y
+        wl-copy
+    end
+
     function v
         nvim $argv
     end
