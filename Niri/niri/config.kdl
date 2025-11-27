@@ -196,6 +196,7 @@ binds {
     Mod+D hotkey-overlay-title="File Manager" { spawn "ghostty" "-e" "yazi"; }
     Mod+B hotkey-overlay-title="Web Browser" { spawn "zen-browser"; }
     Mod+T hotkey-overlay-title="Telegram Desktop" { spawn "Telegram"; }
+    Mod+S hotkey-overlay-title="LocalSend" { spawn "localsend"; }
     Mod+Alt+L hotkey-overlay-title="Lock Screen" {
         spawn "dms" "ipc" "call" "lock" "lock";
     }
@@ -223,7 +224,7 @@ binds {
         spawn "dms" "ipc" "call" "brightness" "decrement" "5" "";
     }
 
-    Mod+Shift+C repeat=false { close-window; }
+    Mod+Q repeat=false { close-window; }
     Mod+F { maximize-column; }
     Mod+Shift+F { fullscreen-window; }
     Mod+Shift+T { toggle-window-floating; }
