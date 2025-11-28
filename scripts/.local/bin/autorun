@@ -8,3 +8,4 @@ run() {
 
 # run hypridle
 run wl-paste --watch cliphist store
+run /usr/lib/mate-polkit/polkit-mate-authentication-agent-1
