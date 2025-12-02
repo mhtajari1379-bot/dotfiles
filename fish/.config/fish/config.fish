@@ -86,6 +86,10 @@ if status is-interactive
         tmux $argv
     end
 
+    function ai
+        opencode $argv
+    end
+
     function open
         if test (count $argv) -eq 0
             echo "Usage: open <file-or-url>"

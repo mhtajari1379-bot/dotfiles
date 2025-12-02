@@ -28,12 +28,12 @@ return {
   },
   keys = {
     {
-      '<leader>on',
+      '<leader>Nn',
       '<cmd>Neorg workspace notes<CR>',
       desc = 'Neorg Open Notes',
     },
     {
-      '<leader>ow',
+      '<leader>Nw',
       '<cmd>Neorg workspace works<CR>',
       desc = 'Neorg Open Works',
     },
